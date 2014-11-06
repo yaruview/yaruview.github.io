@@ -1,4 +1,4 @@
-mmc3260.github.io
+yaruview.github.io
 =================
 
 my personal website

@@ -36,9 +36,24 @@ nav a{
         padding:5%;
     }
     
+    h1, h2 {
+        text-align: center;
+    }
+    
     nav{
-        width: 100%
-
+        width: 100%;
+        text-align:center;
+        border:0px;
+    }
+    
+    nav ul {
+        list-style-type: none;
+        padding-left:0px;
+    }
+    
+    nav li{
+        display:inline;
+        margin-right: 10px;
     }
     
     #content {

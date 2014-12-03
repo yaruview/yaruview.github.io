@@ -1,0 +1,95 @@
+@import url(http://fonts.googleapis.com/css?family=Signika:700,400);
+@import url(http://fonts.googleapis.com/css?family=Signika:700,400|Titillium+Web:400,700,600italic);
+
+
+* {
+    padding: 0;
+    margin:0;
+}
+
+html{
+    background-color: #F5F5F5;
+
+}
+
+body {
+    font-family:'Titillium Web', sans-serif;
+}
+
+h1 {
+    font-family: 'Signika', sans-serif;
+    font-size:40px;
+    color: #2F4F4F;
+}
+
+header {
+    margin: 20px 5px;
+}
+
+#left {
+    padding-left: 8%;
+}
+
+#center {
+    text-align: center
+}
+
+nav {
+    background-color: #ffffff;
+    padding-left: 8%;
+    margin-bottom: 5%;
+}
+
+nav a {
+    font-size:18px;
+    color:#696969;
+    text-decoration: none;
+    padding:1%;
+    display:inline-block;
+    border-top: 3px solid #ffffff;
+    margin-right: 10%;
+}
+
+nav a:hover {
+    border-top: 3px solid #A9A9A9;
+    
+}
+
+
+.wrapper {
+    width: 80%;
+    margin:0 auto;
+}
+
+h2,h3 {
+    text-align: center;
+    color: #2F4F4F;
+}
+
+img {
+    width:100%;
+
+}
+
+.pictext {
+    margin-top: 1%;
+    padding: 2%;
+    background-color: #ffffff;
+
+}
+
+.pictext a {
+    text-decoration: none;
+}
+
+footer {
+    color: #A9A9A9;
+    margin-top: 10px;
+    font-size: 14px;
+
+}
+
+footer a {
+    color:#A9A9A9; 
+}
+

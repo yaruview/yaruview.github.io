@@ -1,7 +1,16 @@
+@import url(http://fonts.googleapis.com/css?family=Droid+Sans:400,700);
+
+
 * {
     padding: 0;
     margin:0;
 }
+
+body {
+    font-family: 'Droid Sans', sans-serif;
+    font: 16px/24px 'Droid Sans', sans-serif; 
+}
+
 
 .wrapper {
     max-width: 960px;
@@ -9,6 +18,7 @@
 }
 
 header {
+    margin-top: 5px;
     margin-bottom: 10px;
 }
 
@@ -33,19 +43,42 @@ img {
     width:100%
 }
 
+.promo h3 { 
+    text-align: center;
+    background-color:#87CEEB;
+    text-transform: uppercase;
+    color:#ffffff;
+}
+
+.promo img {
+    margin-bottom: -4px;
+}
+
+
 .banner{
     text-align: center;
 
 }
 
 .third {
-    width:33%;
-    float: left
+    width:32%;
+    float: left;
+    margin-right: 2%
 }
 
 .half {
-    width:50%;
-    float:left
+    width:49%;
+    margin-right:2%; 
+    float:left;
+}
+
+.full, .half, .third {
+    margin-bottom: 5px;
+
+}
+
+.last{
+    margin-right: 0;
 }
 
 footer{

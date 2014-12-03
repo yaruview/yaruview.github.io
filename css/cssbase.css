@@ -13,6 +13,12 @@ html{
 
 body {
     font-family:'Titillium Web', sans-serif;
+        
+}
+
+p {
+    margin-bottom: 14px;
+    
 }
 
 h1 {
@@ -36,7 +42,7 @@ header {
 nav {
     background-color: #ffffff;
     padding-left: 8%;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 
 nav a {
@@ -55,6 +61,7 @@ nav a:hover {
 }
 
 
+
 .wrapper {
     width: 80%;
     margin:0 auto;
@@ -70,23 +77,20 @@ img {
 
 }
 
+aside {
+    margin-bottom: 20px;
+}
+
 .pictext {
-    margin-top: 1%;
-    padding: 2%;
+    margin-top: 10px;
+    padding: 3%;
     background-color: #ffffff;
+    margin-bottom: 20px;
 
 }
 
 .pictext a {
     text-decoration: none;
-}
-
-.intro {
-    padding: 2%;
-    color: #808080;
-    font-family:'Titillium Web';
-    font-weight: 600;
-    font-style: italic;
 }
 
 .twothird {
@@ -101,7 +105,7 @@ img {
 
 }
         
-        
+
 
 ul {
     text-align: center;

@@ -1,4 +1,3 @@
-@import url(http://fonts.googleapis.com/css?family=Signika:700,400);
 @import url(http://fonts.googleapis.com/css?family=Signika:700,400|Titillium+Web:400,700,600italic);
 
 
@@ -47,7 +46,7 @@ nav a {
     padding:1%;
     display:inline-block;
     border-top: 3px solid #ffffff;
-    margin-right: 10%;
+    margin-right:10%; 
 }
 
 nav a:hover {
@@ -82,7 +81,45 @@ img {
     text-decoration: none;
 }
 
+.intro {
+    padding: 2%;
+    color: #808080;
+    font-family:'Titillium Web';
+    font-weight: 600;
+    font-style: italic;
+}
+
+.twothird {
+    float: left;
+    width:67%;
+    margin-bottom: 2%;
+}
+
+.third {
+    width: 30%;
+    float: right;
+
+}
+        
+        
+
+ul {
+    text-align: center;
+    padding: 2%;
+    background-color: #ffffff;
+    list-style: none;
+
+}
+
+ul a{
+    text-decoration: none;
+    
+}
+
+
+
 footer {
+    clear: both;
     color: #A9A9A9;
     margin-top: 10px;
     font-size: 14px;
@@ -93,3 +130,22 @@ footer a {
     color:#A9A9A9; 
 }
 
+@media screen and (max-width: 600px){
+    nav a{
+        margin-right:2%;        
+            
+    }
+    
+    .third{
+        clear:both;
+        width: 100%; 
+            
+    }
+
+    .twothird {
+        width: 100%;
+    }
+    
+    
+    
+}

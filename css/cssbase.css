@@ -32,7 +32,7 @@ header {
 }
 
 #left {
-    padding-left: 6%;
+    padding-left: 8%;
 }
 
 #center {
@@ -135,10 +135,18 @@ footer a {
 }
 
 @media only screen and (max-width: 600px){
+    #left {
+        padding-left: 0;
+        text-align: center;
+}
+
+    
     nav a{
         margin-right:2%;        
             
     }
+    
+    
     
     .wrapper {
     width: 94%;
